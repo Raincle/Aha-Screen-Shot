@@ -1,0 +1,22 @@
+{
+  "name": "aha_screen_shot",
+  "version": "1.0.0",
+  "description": "node screen_shot.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raincle/Aha-ScreenShot.git"
+  },
+  "author": "Hong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raincle/Aha-ScreenShot/issues"
+  },
+  "homepage": "https://github.com/Raincle/Aha-ScreenShot#readme",
+  "devDependencies": {
+    "webshot": "^0.18.0"
+  }
+}
