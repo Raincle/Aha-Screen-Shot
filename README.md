@@ -1,3 +1,3 @@
 # Aha-ScreenShot
 
-node screen_shot.js
+node aha_screen_shot.js

@@ -53,6 +53,11 @@ function startScreenShot(opt) {
   };
   console.log("开始截图，请稍候...");
   webshot(opt.url, opt.name, options, function(err) {
-    console.log(opt.name + "存储完成，请查阅！");
+    if (err) {
+      console.log("出现未知错误，请翻墙试试！");
+    } else {
+      console.log(opt.name + "存储完成，请查阅！");
+    }
+    
   });
 }
